@@ -1,4 +1,4 @@
-package cn.wc.Observer;
+package com.wc.Demo.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
