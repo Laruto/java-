@@ -24,6 +24,12 @@ public class ListNode {
         }
     }
 
+    public ListNode(int[] num){
+        this.val = num[0];
+        for (int i = 1; i < num.length; i++) {
+            this.add(num[i]);
+        }
+    }
 
 
 }

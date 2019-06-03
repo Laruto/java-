@@ -12,7 +12,7 @@ import java.util.List;
 
 
 
-public class Solution2 {
+public class Solution2<asd> {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2){
         ListNode result = new ListNode(0);
         ListNode p1=l1,p2=l2,h=result;
@@ -43,4 +43,6 @@ public class Solution2 {
         ListNode result = addTwoNumbers(p1,p2);
         result.print();
     }
+
+    
 }
